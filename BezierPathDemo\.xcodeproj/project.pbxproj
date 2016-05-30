@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA69F4F91CE9990600B4F6F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA69F4F81CE9990600B4F6F8 /* main.m */; };
+		FA69F4FC1CE9990600B4F6F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA69F4FB1CE9990600B4F6F8 /* AppDelegate.m */; };
+		FA69F4FF1CE9990600B4F6F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA69F4FE1CE9990600B4F6F8 /* ViewController.m */; };
+		FA69F5021CE9990600B4F6F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA69F5001CE9990600B4F6F8 /* Main.storyboard */; };
+		FA69F5041CE9990600B4F6F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA69F5031CE9990600B4F6F8 /* Assets.xcassets */; };
+		FA69F5071CE9990600B4F6F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA69F5051CE9990600B4F6F8 /* LaunchScreen.storyboard */; };
+		FA69F5121CE9990600B4F6F8 /* BezierPathDemo_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA69F5111CE9990600B4F6F8 /* BezierPathDemo_Tests.m */; };
+		FA69F51D1CE9990600B4F6F8 /* BezierPathDemo_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA69F51C1CE9990600B4F6F8 /* BezierPathDemo_UITests.m */; };
+		FA69F52C1CE9991C00B4F6F8 /* SNCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA69F52B1CE9991C00B4F6F8 /* SNCircleProgressView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA69F50E1CE9990600B4F6F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA69F4EC1CE9990500B4F6F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA69F4F31CE9990500B4F6F8;
+			remoteInfo = "BezierPathDemo\\";
+		};
+		FA69F5191CE9990600B4F6F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA69F4EC1CE9990500B4F6F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA69F4F31CE9990500B4F6F8;
+			remoteInfo = "BezierPathDemo\\";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA69F4F41CE9990500B4F6F8 /* BezierPathDemo\.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BezierPathDemo\\.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA69F4F81CE9990600B4F6F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA69F4FA1CE9990600B4F6F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA69F4FB1CE9990600B4F6F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA69F4FD1CE9990600B4F6F8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FA69F4FE1CE9990600B4F6F8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA69F5011CE9990600B4F6F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA69F5031CE9990600B4F6F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA69F5061CE9990600B4F6F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA69F5081CE9990600B4F6F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA69F50D1CE9990600B4F6F8 /* BezierPathDemo\Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BezierPathDemo\\Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA69F5111CE9990600B4F6F8 /* BezierPathDemo_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BezierPathDemo_Tests.m; sourceTree = "<group>"; };
+		FA69F5131CE9990600B4F6F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA69F5181CE9990600B4F6F8 /* BezierPathDemo\UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BezierPathDemo\\UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA69F51C1CE9990600B4F6F8 /* BezierPathDemo_UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BezierPathDemo_UITests.m; sourceTree = "<group>"; };
+		FA69F51E1CE9990600B4F6F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA69F52A1CE9991C00B4F6F8 /* SNCircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNCircleProgressView.h; sourceTree = "<group>"; };
+		FA69F52B1CE9991C00B4F6F8 /* SNCircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNCircleProgressView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA69F4F11CE9990500B4F6F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA69F50A1CE9990600B4F6F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA69F5151CE9990600B4F6F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA69F4EB1CE9990500B4F6F8 = {
+			isa = PBXGroup;
+			children = (
+				FA69F4F61CE9990600B4F6F8 /* BezierPathDemo\ */,
+				FA69F5101CE9990600B4F6F8 /* BezierPathDemo\Tests */,
+				FA69F51B1CE9990600B4F6F8 /* BezierPathDemo\UITests */,
+				FA69F4F51CE9990500B4F6F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA69F4F51CE9990500B4F6F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA69F4F41CE9990500B4F6F8 /* BezierPathDemo\.app */,
+				FA69F50D1CE9990600B4F6F8 /* BezierPathDemo\Tests.xctest */,
+				FA69F5181CE9990600B4F6F8 /* BezierPathDemo\UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA69F4F61CE9990600B4F6F8 /* BezierPathDemo\ */ = {
+			isa = PBXGroup;
+			children = (
+				FA69F4FA1CE9990600B4F6F8 /* AppDelegate.h */,
+				FA69F4FB1CE9990600B4F6F8 /* AppDelegate.m */,
+				FA69F4FD1CE9990600B4F6F8 /* ViewController.h */,
+				FA69F4FE1CE9990600B4F6F8 /* ViewController.m */,
+				FA69F5001CE9990600B4F6F8 /* Main.storyboard */,
+				FA69F5031CE9990600B4F6F8 /* Assets.xcassets */,
+				FA69F5051CE9990600B4F6F8 /* LaunchScreen.storyboard */,
+				FA69F5081CE9990600B4F6F8 /* Info.plist */,
+				FA69F4F71CE9990600B4F6F8 /* Supporting Files */,
+				FA69F52A1CE9991C00B4F6F8 /* SNCircleProgressView.h */,
+				FA69F52B1CE9991C00B4F6F8 /* SNCircleProgressView.m */,
+			);
+			path = "BezierPathDemo\\";
+			sourceTree = "<group>";
+		};
+		FA69F4F71CE9990600B4F6F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA69F4F81CE9990600B4F6F8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA69F5101CE9990600B4F6F8 /* BezierPathDemo\Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FA69F5111CE9990600B4F6F8 /* BezierPathDemo_Tests.m */,
+				FA69F5131CE9990600B4F6F8 /* Info.plist */,
+			);
+			path = "BezierPathDemo\\Tests";
+			sourceTree = "<group>";
+		};
+		FA69F51B1CE9990600B4F6F8 /* BezierPathDemo\UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA69F51C1CE9990600B4F6F8 /* BezierPathDemo_UITests.m */,
+				FA69F51E1CE9990600B4F6F8 /* Info.plist */,
+			);
+			path = "BezierPathDemo\\UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA69F4F31CE9990500B4F6F8 /* BezierPathDemo\ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA69F5211CE9990600B4F6F8 /* Build configuration list for PBXNativeTarget "BezierPathDemo\" */;
+			buildPhases = (
+				FA69F4F01CE9990500B4F6F8 /* Sources */,
+				FA69F4F11CE9990500B4F6F8 /* Frameworks */,
+				FA69F4F21CE9990500B4F6F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BezierPathDemo\\";
+			productName = "BezierPathDemo\\";
+			productReference = FA69F4F41CE9990500B4F6F8 /* BezierPathDemo\.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA69F50C1CE9990600B4F6F8 /* BezierPathDemo\Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA69F5241CE9990600B4F6F8 /* Build configuration list for PBXNativeTarget "BezierPathDemo\Tests" */;
+			buildPhases = (
+				FA69F5091CE9990600B4F6F8 /* Sources */,
+				FA69F50A1CE9990600B4F6F8 /* Frameworks */,
+				FA69F50B1CE9990600B4F6F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA69F50F1CE9990600B4F6F8 /* PBXTargetDependency */,
+			);
+			name = "BezierPathDemo\\Tests";
+			productName = "BezierPathDemo\\Tests";
+			productReference = FA69F50D1CE9990600B4F6F8 /* BezierPathDemo\Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA69F5171CE9990600B4F6F8 /* BezierPathDemo\UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA69F5271CE9990600B4F6F8 /* Build configuration list for PBXNativeTarget "BezierPathDemo\UITests" */;
+			buildPhases = (
+				FA69F5141CE9990600B4F6F8 /* Sources */,
+				FA69F5151CE9990600B4F6F8 /* Frameworks */,
+				FA69F5161CE9990600B4F6F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA69F51A1CE9990600B4F6F8 /* PBXTargetDependency */,
+			);
+			name = "BezierPathDemo\\UITests";
+			productName = "BezierPathDemo\\UITests";
+			productReference = FA69F5181CE9990600B4F6F8 /* BezierPathDemo\UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA69F4EC1CE9990500B4F6F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ProDrone;
+				TargetAttributes = {
+					FA69F4F31CE9990500B4F6F8 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					FA69F50C1CE9990600B4F6F8 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FA69F4F31CE9990500B4F6F8;
+					};
+					FA69F5171CE9990600B4F6F8 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FA69F4F31CE9990500B4F6F8;
+					};
+				};
+			};
+			buildConfigurationList = FA69F4EF1CE9990500B4F6F8 /* Build configuration list for PBXProject "BezierPathDemo\" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA69F4EB1CE9990500B4F6F8;
+			productRefGroup = FA69F4F51CE9990500B4F6F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA69F4F31CE9990500B4F6F8 /* BezierPathDemo\ */,
+				FA69F50C1CE9990600B4F6F8 /* BezierPathDemo\Tests */,
+				FA69F5171CE9990600B4F6F8 /* BezierPathDemo\UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA69F4F21CE9990500B4F6F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA69F5071CE9990600B4F6F8 /* LaunchScreen.storyboard in Resources */,
+				FA69F5041CE9990600B4F6F8 /* Assets.xcassets in Resources */,
+				FA69F5021CE9990600B4F6F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA69F50B1CE9990600B4F6F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA69F5161CE9990600B4F6F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA69F4F01CE9990500B4F6F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA69F52C1CE9991C00B4F6F8 /* SNCircleProgressView.m in Sources */,
+				FA69F4FF1CE9990600B4F6F8 /* ViewController.m in Sources */,
+				FA69F4FC1CE9990600B4F6F8 /* AppDelegate.m in Sources */,
+				FA69F4F91CE9990600B4F6F8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA69F5091CE9990600B4F6F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA69F5121CE9990600B4F6F8 /* BezierPathDemo_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA69F5141CE9990600B4F6F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA69F51D1CE9990600B4F6F8 /* BezierPathDemo_UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA69F50F1CE9990600B4F6F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA69F4F31CE9990500B4F6F8 /* BezierPathDemo\ */;
+			targetProxy = FA69F50E1CE9990600B4F6F8 /* PBXContainerItemProxy */;
+		};
+		FA69F51A1CE9990600B4F6F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA69F4F31CE9990500B4F6F8 /* BezierPathDemo\ */;
+			targetProxy = FA69F5191CE9990600B4F6F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA69F5001CE9990600B4F6F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA69F5011CE9990600B4F6F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA69F5051CE9990600B4F6F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA69F5061CE9990600B4F6F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA69F51F1CE9990600B4F6F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA69F5201CE9990600B4F6F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA69F5221CE9990600B4F6F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BezierPathDemo\\/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "proDrone.BezierPathDemo-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA69F5231CE9990600B4F6F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BezierPathDemo\\/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "proDrone.BezierPathDemo-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA69F5251CE9990600B4F6F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "BezierPathDemo\\Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "proDrone.BezierPathDemo-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BezierPathDemo\\.app/BezierPathDemo\\";
+			};
+			name = Debug;
+		};
+		FA69F5261CE9990600B4F6F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "BezierPathDemo\\Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "proDrone.BezierPathDemo-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BezierPathDemo\\.app/BezierPathDemo\\";
+			};
+			name = Release;
+		};
+		FA69F5281CE9990600B4F6F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BezierPathDemo\\UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "proDrone.BezierPathDemo-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "BezierPathDemo\\";
+			};
+			name = Debug;
+		};
+		FA69F5291CE9990600B4F6F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BezierPathDemo\\UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "proDrone.BezierPathDemo-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "BezierPathDemo\\";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA69F4EF1CE9990500B4F6F8 /* Build configuration list for PBXProject "BezierPathDemo\" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA69F51F1CE9990600B4F6F8 /* Debug */,
+				FA69F5201CE9990600B4F6F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA69F5211CE9990600B4F6F8 /* Build configuration list for PBXNativeTarget "BezierPathDemo\" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA69F5221CE9990600B4F6F8 /* Debug */,
+				FA69F5231CE9990600B4F6F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA69F5241CE9990600B4F6F8 /* Build configuration list for PBXNativeTarget "BezierPathDemo\Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA69F5251CE9990600B4F6F8 /* Debug */,
+				FA69F5261CE9990600B4F6F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA69F5271CE9990600B4F6F8 /* Build configuration list for PBXNativeTarget "BezierPathDemo\UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA69F5281CE9990600B4F6F8 /* Debug */,
+				FA69F5291CE9990600B4F6F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA69F4EC1CE9990500B4F6F8 /* Project object */;
+}
